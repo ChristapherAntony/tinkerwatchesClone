@@ -1,0 +1,437 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Canela, Times, Times New Roman, serif;
+    
+}
+
+header{
+    width: 100%;
+    height: 85px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 60px;
+    cursor: pointer;
+} 
+.logo >img{
+    height: 51px;
+}
+.menu{
+    margin-right: 70px;
+}
+
+.round_button{
+    height:18px;
+    width: 18px;
+    border-radius: 50%;
+    border-width: 1px ;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 10px;    
+}
+.hamburger_button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    
+
+}
+.first_main_div{
+    width: 90%;
+    height: 480px;
+    margin: auto;
+    margin-bottom: 60px;
+    position: relative;
+}
+.first_main_div >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 100px 80px 100px;
+    width: 350px    ;
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    color: white;
+}
+.grid_head{
+    
+    font-size: 60px;
+    line-height: 92px;
+    
+}
+.grid_des{
+    font-family: "GT America", "Helvetica Neue", Helvetica, sans-serif;
+    
+    font-size: small;
+    line-height: 20px   ;
+    padding-right: 50px;
+}
+.shop_btn{
+    width: 170px;
+    height: 38px;
+    font-family: GT America, "Helvetica Neue", Helvetica, sans-serif;
+    color: #363636;
+    background-color: #fff;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+.shop_btn:hover{
+    background-color: lightgray;
+    opacity: .8;
+    
+}    
+/******************************************************************/
+.img_div{
+    width: 90%;
+    height: 780px;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: 59% 39% ;
+    column-gap: 2%;
+    margin-bottom: 60px;
+    
+    
+    
+}
+
+.left_part{
+    height: inherit;
+    position: relative;
+    
+}
+.text_on_img{
+    position: absolute;
+    left: 20PX;
+    bottom: 20px;
+    color: #fff;
+    font-family: "GT America", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.left_part > img{
+    height: 100%;
+    width: 100%;
+    
+    object-fit: cover;
+    cursor: pointer;
+}
+.right_part{
+    height: inherit;
+    display: grid;
+    row-gap: 2%;
+    grid-template-rows: 250px 250px 250px;
+
+}
+.right_top, .right_middle, .right_bottom{
+    position: relative;
+}
+.right_top > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.right_middle > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.right_bottom >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/******************************************************************/
+.tinkerWatch_div{
+    background-color: rgb(250,250,250);
+    width: 100%;
+    height: 580px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.descreption_div{
+    
+    margin-left: 150px;
+    margin-top: 115px;
+    height: 200px;
+    width: 400px;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: "GT America","Helvetica Neue","Helvetica",sans-serif;
+    color: #363636;
+    font-weight: 300;
+}
+
+
+.secondButton{
+    width: 250px;
+    height: 35px;
+    margin-top: 40px;
+    font-family: "GT America","Helvetica Neue","Helvetica",sans-serif;
+    color: #363636;
+    border: solid 1px #efefef;
+    background-color: #fff;
+    cursor:pointer;
+    transition: color .5s,
+    background-color .5s;
+    margin-bottom: 60px;
+}
+.secondButton:hover{
+    background-color: #363636;
+    color: #fff;
+} 
+.tinkerWatch_img{
+    height: 580px;
+} 
+
+
+/******************************************************************/
+.parts_div{
+    background-color: lightgrey;
+    width: 100%;
+    height: 580px;
+    margin: auto;
+    background-color: rgb(250,250,250);
+    display: grid;
+    grid-template-rows: 100px 280px 1fr;
+}
+.parts_div_top{
+    position: relative;
+}
+.watchDialHalf_img{
+    position: absolute;
+    width: 265px;
+    left: 620px;
+}
+.thirdButton{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    top: 50px;
+    left: 150px;
+    font-family: "GT America","Helvetica Neue","Helvetica",sans-serif;
+    color: #363636;
+    border: solid 1px #efefef;
+    background-color: #fff;
+    cursor:pointer;
+    transition: color .5s,
+    background-color .5s;
+    margin-bottom: 60px;
+}
+.thirdButton:hover{
+    background-color: #363636;
+    color: #fff;
+} 
+.watch_parts{
+    height: 100%;
+    width: 100%; 
+}
+
+.parts_div_bottom{
+    position: relative;
+    
+}
+
+.partsDetails_1, .partsDetails_2, .partsDetails_3, .partsDetails_4{
+    
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top: 20px;
+    color: #706f6f;
+
+    
+
+}
+p{
+    font-size: 11px; 
+    line-height: 15px;
+    font-family: "GT America","Helvetica Neue","Helvetica",sans-serif;
+}
+h3{
+    font-family: "GT America","Helvetica Neue","Helvetica",sans-serif;
+    font-size: small;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.partsDetails_1{ 
+    left: 80px;  
+}
+.partsDetails_2{ 
+    left: 360px;  
+}
+.partsDetails_3{ 
+    left: 640px;  
+}
+.partsDetails_4{ 
+    left: 940px;  
+}
+
+/******************************************************************/
+.refund_div{
+    background-color:rosybrown;
+    width: 100%;
+    height: 480px;
+    margin: auto;
+    position: relative;
+
+}
+.refund_div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.refund_descreption{
+    font-family: "Canela","Times","Times New Roman",serif;
+    color: #fff;
+    width: 490px;
+    font-size: 26px;
+    font-weight: 300 ;
+    line-height: 40 px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+
+}
+/******************************************************************/
+.bottom_grid{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 3fr 4fr ;
+
+}
+.bottom_grid_top{
+    margin: auto;
+    font-size: 33px;
+    font-weight: 200;
+
+}
+.bottom_grid_middle{
+    display: flex;
+    justify-content: center;
+    
+}
+.featuredIn{
+    height: 35px;
+    margin-top: 40px;
+    padding: 25px;
+}
+.bottom_grid_bottom{
+    position: relative;
+}
+.signup{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 30px; 
+    left: 60px;
+}
+.signup > span{
+    font-size: x-large;
+    font-weight: 300;
+    color: rgb(54,54,54);
+}
+.signup > p{
+    margin-top: 25px;
+    color: rgb(154,154,154);
+    font-size: 13px; 
+    font-family: "GT America", "Helvetica Neue", Helvetica, sans-serif;;   
+    font-weight: 200;
+}
+.Newsletter{
+    margin-top: 20px;
+    color: rgb(154,154,154);
+    font-size: 13px; 
+    font-family: "GT America", "Helvetica Neue", Helvetica, sans-serif;;   
+    font-weight: 200;
+    border: none;
+    border-bottom: solid 1px #9B9B9B;
+    width: 100%;
+    height: 30px;
+    
+}
+
+
+.signUpButton{
+    margin-top: 15px;
+    width: 200px;
+    height: 38px;
+    font-family: GT America, "Helvetica Neue", Helvetica, sans-serif;
+    border: none;
+    color: #363636;
+    background-color: lightgray;
+    opacity: .6;
+    transition: opacity 1s;
+    cursor: pointer;
+}
+.signUpButton:hover{
+    background-color: #1b1b1b;
+    color:lightgray ;
+    opacity: .8;
+    
+}  
+
+/******************************************************************/
+footer{
+    width: 100%;
+    height: 245px;
+    
+    background-color: rgb(250,250,250);
+    position: relative;
+
+}
+
+.footer_grid{
+    height: 150px;
+    width: 80%; 
+    position: absolute;
+    top: 50px;
+    left: 110px;
+   
+    display: grid;
+    grid-template-columns: 120px 180px 180px 180px 150px ;
+    font-family: "GT America", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 15px;
+    color: rgb(155,155,155);
+
+}
+.svg_img{
+    height: 20px;
+}
+.insta_img{
+    height: 20%;
+}
+
+li{
+    list-style-type: none;
+}
+.Newsletter_footer{
+    margin-top: 15px;
+    background-color: inherit;
+    font-size: 10px; 
+    font-family: "GT America", "Helvetica Neue", Helvetica, sans-serif;;   
+    font-weight: 200;
+    border: none;
+    border-bottom: solid 1px #9B9B9B;
+    width: 100%;
+    height: 30px;
+}
